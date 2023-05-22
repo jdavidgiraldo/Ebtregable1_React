@@ -66,7 +66,7 @@
   z-index: 1;
 }
 
-.phrase__container {
+.phrase__container.bx1 {
   background-color: rgba(189, 197, 195, 0.5);
   border-radius: 20px;
   display: grid;
@@ -77,6 +77,81 @@
   width: min(100%, 325px);
   height: 30rem;
   box-shadow: 0 0 30px 10px rgba(115, 6, 249, 0.579);
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.phrase__container.bx2 {
+  background-color: rgba(189, 197, 195, 0.5);
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 20px;
+  width: min(100%, 325px);
+  height: 30rem;
+  box-shadow: 0 0 30px 10px rgba(255, 49, 190, 0.968);
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.phrase__container.bx3 {
+  background-color: rgba(189, 197, 195, 0.5);
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 20px;
+  width: min(100%, 325px);
+  height: 30rem;
+  box-shadow: 0 0 30px 10px rgba(64, 252, 43, 0.912);
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.phrase__container.bx4 {
+  background-color: rgba(189, 197, 195, 0.5);
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 20px;
+  width: min(100%, 325px);
+  height: 30rem;
+  box-shadow: 0 0 30px 10px rgba(255, 147, 32, 0.945);
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.phrase__container.bx5 {
+  background-color: rgba(189, 197, 195, 0.5);
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 20px;
+  width: min(100%, 325px);
+  height: 30rem;
+  box-shadow: 0 0 30px 10px rgba(28, 255, 221, 0.879);
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.phrase__container.bx6 {
+  background-color: rgba(189, 197, 195, 0.5);
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 20px;
+  width: min(100%, 325px);
+  height: 30rem;
+  box-shadow: 0 0 30px 10px rgba(251, 255, 34, 0.94);
   z-index: 1;
   margin-bottom: 30px;
 }

@@ -4,27 +4,31 @@ import dbQuotes from './db/quote.json'
 import QuoteBox from './components/QuoteBox'
 import { getRandom } from './utils/random'
 
+const bgImages = ['bg1', 'bg2', 'bg3', 'bg4', 'bg5', 'bg6', 'bg7', 'bg8']
+
 function App() {
   const [quote, setQuote] = useState(getRandom(dbQuotes))
+  const [bgImage, setBgImage] = useState(getRandom(bgImages))
 
   const handleChangeQuote = () => {
     setQuote(getRandom(dbQuotes))
+    setBgImage(getRandom(bgImages))
   }
 
   return (
-    <main className="app">
-      <div className='app__cover'></div>
-      <div className='bg__image'>
-        <img src={quote.image} alt="" />
-      </div>
+    <main className={`app ${bgImage}`}>
+      <div className="app__cover"></div>
       <section className="app__container">
         <h1>AnimeSoul</h1>
 
+        <div className= "phrase__container">
+          <img src={quote.image} alt="" />
         <QuoteBox handleChangeQuote={handleChangeQuote} phrase={quote.phrase} />
-
-        <footer>
-          <h3>Author: {quote.author}</h3>
+        <footer className='footer'>
+          <h3>{quote.author}</h3>
         </footer>
+        </div>
+
       </section>
     </main>
   )

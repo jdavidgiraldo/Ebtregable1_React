@@ -15,35 +15,35 @@
 }
 
 .app.bg1 {
-  background-image: url(/images/bg1.png);
+  background-image: url(/images/bg1.webp);
 }
 
 .app.bg2 {
-  background-image: url(/images/bg2.png);
+  background-image: url(/images/bg2.webp);
 }
 
 .app.bg3 {
-  background-image: url(/images/bg3.jpg);
+  background-image: url(/images/bg3.webp);
 }
 
 .app.bg4 {
-  background-image: url(/images/bg4.jpg);
+  background-image: url(/images/bg4.webp);
 }
 
 .app.bg5 {
-  background-image: url(/images/bg5.jpg);
+  background-image: url(/images/bg5.webp);
 }
 
 .app.bg6 {
-  background-image: url(/images/bg6.jpg);
+  background-image: url(/images/bg6.webp);
 }
 
 .app.bg7 {
-  background-image: url(/images/bg7.png);
+  background-image: url(/images/bg7.webp);
 }
 
 .app.bg8 {
-  background-image: url(/images/bg8.jpg);
+  background-image: url(/images/bg8.webp);
 }
 
 .app__cover {

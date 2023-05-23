@@ -10,7 +10,7 @@
 .app h1 {
   font-family: 'Bungee Shade', cursive;
   font-size: 2.5rem;
-  padding-top: 20px;
+  padding-top: 10px;
   color: rgb(253, 236, 4);
 }
 
@@ -46,15 +46,16 @@
   background-image: url(/images/bg8.webp);
 }
 
-.app__cover {
+/* .app__cover {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.2);
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  min-height: 100vh;
   z-index: 1;
-}
+} */
 
 .app__container {
   display: grid;
@@ -75,7 +76,7 @@
   justify-items: center;
   padding-bottom: 20px;
   width: min(100%, 325px);
-  height: 30rem;
+  height: 28rem;
   box-shadow: 0 0 30px 10px rgba(115, 6, 249, 0.579);
   z-index: 1;
   margin-bottom: 30px;
@@ -90,7 +91,7 @@
   justify-items: center;
   padding-bottom: 20px;
   width: min(100%, 325px);
-  height: 30rem;
+  height: 28rem;
   box-shadow: 0 0 30px 10px rgba(255, 49, 190, 0.968);
   z-index: 1;
   margin-bottom: 30px;
@@ -105,7 +106,7 @@
   justify-items: center;
   padding-bottom: 20px;
   width: min(100%, 325px);
-  height: 30rem;
+  height: 28rem;
   box-shadow: 0 0 30px 10px rgba(64, 252, 43, 0.912);
   z-index: 1;
   margin-bottom: 30px;
@@ -120,7 +121,7 @@
   justify-items: center;
   padding-bottom: 20px;
   width: min(100%, 325px);
-  height: 30rem;
+  height: 28rem;
   box-shadow: 0 0 30px 10px rgba(255, 147, 32, 0.945);
   z-index: 1;
   margin-bottom: 30px;
@@ -135,7 +136,7 @@
   justify-items: center;
   padding-bottom: 20px;
   width: min(100%, 325px);
-  height: 30rem;
+  height: 28rem;
   box-shadow: 0 0 30px 10px rgba(28, 255, 221, 0.879);
   z-index: 1;
   margin-bottom: 30px;
@@ -150,7 +151,7 @@
   justify-items: center;
   padding-bottom: 20px;
   width: min(100%, 325px);
-  height: 30rem;
+  height: 28rem;
   box-shadow: 0 0 30px 10px rgba(251, 255, 34, 0.94);
   z-index: 1;
   margin-bottom: 30px;
@@ -163,13 +164,3 @@
   height: 100%;
 }
 
-.footer h3 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding: 10px;
-  font-size: 1.1rem;
-  text-align: center;
-  font-family: 'Iceberg', cursive;
-  text-shadow: 1px 1px 10px rgb(253, 236, 4);
-}

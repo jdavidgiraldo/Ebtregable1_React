@@ -3,6 +3,7 @@ import './App.css'
 import dbQuotes from './db/quote.json'
 import QuoteBox from './components/QuoteBox'
 import { getRandom } from './utils/random'
+import Footer from './components/Footer'
 
 const bgImages = ['bg1', 'bg2', 'bg3', 'bg4', 'bg5', 'bg6', 'bg7', 'bg8']
 const bxShadows = ['bx1', 'bx2', 'bx3', 'bx4', 'bx5']
@@ -30,11 +31,10 @@ function App() {
             handleChangeQuote={handleChangeQuote}
             phrase={quote.phrase}
           />
-          <footer className="footer">
-            <h3>{quote.author}</h3>
-          </footer>
         </div>
       </section>
+        <Footer 
+        author={quote.author}/>
     </main>
   )
 }
